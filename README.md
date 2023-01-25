@@ -12,7 +12,7 @@ Aside from this being the challenge to practice our skills with MERN, anyone is 
 
 ## Deployed App
 
-Below is a link to the deployed app, via Heroku:
+Below is a link to the deployed app, via Heroku: https://ancient-shore-40297.herokuapp.com/. 
 
 ## Usage
 
