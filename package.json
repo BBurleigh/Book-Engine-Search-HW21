@@ -1,10 +1,6 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "engines": {
-    "node": "17.x",
-    "npm": "6.x"
-  },
   "description": "",
   "main": "server/server.js",
   "scripts": {
@@ -18,8 +14,5 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  },
-  "dependencies": {
-    "apollo": "^2.11.1"
   }
 }
