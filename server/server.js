@@ -3,7 +3,6 @@ const path = require('path');
 const db = require('./config/connection');
 const { ApolloServer } = require('apollo-server-express');
 const { authMiddleware } = require('./utils/auth');
-const mongoose = require('mongoose');
 
 const { typeDefs, resolvers } = require('./schemas');
 
@@ -14,14 +13,6 @@ const server = new ApolloServer({
   resolvers,
   context: authMiddleware,
 });
-
-mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost:27017/googleBooks_db',
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  },
-);
 
 app.use(express.urlencoded({ extended: true })); // may change to false
 app.use(express.json());
