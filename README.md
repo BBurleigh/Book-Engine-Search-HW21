@@ -12,9 +12,7 @@ Aside from this being the challenge to practice our skills with MERN, anyone is 
 
 ## Deployed App
 
-Below is a link to the deployed app, via Heroku: https://git.heroku.com/agile-cove-46955.git. 
-
-* Note - there have been issues deploying this app successfully to Heroku, and even with the help of the instructor and a tutor, we were unable to resolve the issue. For the time being, the link above does not function properly. However, the app can be run locally.
+Here is a link to the deployed app, via Heroku: https://git.heroku.com/agile-cove-46955.git. 
 
 ## Usage
 
